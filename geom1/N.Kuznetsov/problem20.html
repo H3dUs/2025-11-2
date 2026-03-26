@@ -26,7 +26,7 @@
             font-size: 0.9rem;
             color: #333;
         }
-        .condition {
+        .condition, .solution {
             margin: 1rem 0;
         }
         img {
@@ -35,10 +35,9 @@
             display: block;
             margin: 1rem 0;
         }
-        hr {
-            margin: 1rem 0;
-            border: none;
-            border-top: 1px solid #ccc;
+        .math-block {
+            margin: 1.2rem 0;
+            overflow-x: auto;
         }
     </style>
 </head>
@@ -53,6 +52,46 @@
         Точки $E$ и $K$  — соответственно середины сторон $CD$ и $AD$ квадрата $ABCD$. Прямая $BE$ пересекается с прямой $CK$ в точке $O$.<br>
         а)  Докажите, что вокруг четырёхугольника $ABOK$ можно описать окружность.<br>
         б)  Найдите $AO$, если сторона квадрата равна $1$.
+    </div>
+
+    <div class="solution">
+        <strong>Решение</strong><br>
+        <img src="Problem20a.svg" alt="Рисунок к решению">
+
+        <div class="math-block">
+            $$ \text{а) Обозначим } \angle CKD = \alpha. $$
+        </div>
+
+        <div class="math-block">
+            $$
+            \begin{cases}
+                |BC| = |CD| \quad \text{(стороны квадрата)} \\[4pt]
+                |KD| = |CE| \quad \text{(половины равных сторон)} \\[4pt]
+                \angle KDC = \angle ECB = 90^\circ
+            \end{cases}
+            \implies \triangle BCE = \triangle CDK \implies
+            $$
+        </div>
+
+        <div class="math-block">
+            $$ \implies \angle BEC = \angle CKD = \alpha $$
+        </div>
+
+        <div class="math-block">
+            $$ \angle KCD = 180^\circ - \angle CKD - \angle CDK = 90^\circ - \alpha $$
+        </div>
+
+        <div class="math-block">
+            $$ \angle COE = 180^\circ - \angle BEC - \angle KCD = 180^\circ - \alpha - (90^\circ - \alpha) = 90^\circ $$
+        </div>
+
+        <div class="math-block">
+            $$ \angle BAK + \angle BOK = 90^\circ + 90^\circ = 180^\circ \implies \text{четырёхугольник } ABOK \text{ вписанный} $$
+        </div>
+
+        <div class="math-block">
+            $$ \text{(признак вписанного четырёхугольника)} $$
+        </div>
     </div>
 </body>
 </html>
