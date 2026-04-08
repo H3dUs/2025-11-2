@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 20</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, { delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}] });"></script>
+    <style>
+        body {
+            margin: 2rem;
+            font-family: 'Times New Roman', serif;
+            font-size: 1rem;
+            line-height: 1.4;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .task-title {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .author {
+            margin-top: 0.2rem;
+            font-size: 0.9rem;
+            color: #333;
+        }
+        .condition, .solution {
+            margin: 1rem 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem 0;
+        }
+        .math-block {
+            margin: 1.2rem 0;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="task-title">Задача 20</div>
+    <div class="author">Подготовил Кузнецов Никита 11-2</div>
+
+    <img src="Problem20.svg" alt="Чертёж к задаче">
+
+    <div class="condition">
+        <strong>Условие</strong><br>
+        Точки $E$ и $K$  — соответственно середины сторон $CD$ и $AD$ квадрата $ABCD$. Прямая $BE$ пересекается с прямой $CK$ в точке $O$.<br>
+        а)  Докажите, что вокруг четырёхугольника $ABOK$ можно описать окружность.<br>
+        б)  Найдите $AO$, если сторона квадрата равна $1$.
+    </div>
+
+    <div class="solution">
+        <strong>Решение</strong><br>
+        <img src="Problem20a.svg" alt="Рисунок к решению">
+
+        <div class="math-block">
+            $$ \text{а) Обозначим } \angle CKD = \alpha. $$
+        </div>
+
+        <div class="math-block">
+            $$
+            \begin{cases}
+                |BC| = |CD| \quad \text{(стороны квадрата)} \\[4pt]
+                |KD| = |CE| \quad \text{(половины равных сторон)} \\[4pt]
+                \angle KDC = \angle ECB = 90^\circ
+            \end{cases}
+            \implies \triangle BCE = \triangle CDK \implies
+            $$
+        </div>
+
+        <div class="math-block">
+            $$ \implies \angle BEC = \angle CKD = \alpha $$
+        </div>
+
+        <div class="math-block">
+            $$ \angle KCD = 180^\circ - \angle CKD - \angle CDK = 90^\circ - \alpha $$
+        </div>
+
+        <div class="math-block">
+            $$ \angle COE = 180^\circ - \angle BEC - \angle KCD = 180^\circ - \alpha - (90^\circ - \alpha) = 90^\circ $$
+        </div>
+
+        <div class="math-block">
+            $$ \angle BAK + \angle BOK = 90^\circ + 90^\circ = 180^\circ \implies \text{четырёхугольник } ABOK \text{ вписанный} $$
+        </div>
+
+        <div class="math-block">
+            $$ \text{(признак вписанного четырёхугольника)} $$
+        </div>
+    </div>
+</body>
+</html>
