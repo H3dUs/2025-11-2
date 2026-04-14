@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 400 360" width="100%">
+    <style>
+        .stroke-main { stroke: #000; stroke-width: 1.5; fill: none; stroke-linejoin: round; }
+        .fill-accent { fill: rgba(211, 47, 47, 0.05); }
+        .stroke-height { stroke: #d32f2f; stroke-width: 1.5; stroke-dasharray: 5,4; fill: none; }
+        .point { fill: #000; }
+        .label { font-family: 'Times New Roman', serif; font-size: 18px; font-style: italic; font-weight: bold; fill: #000; }
+    </style>
+
+    <polygon points="50,300 350,300 283.1,175.1" class="fill-accent" />
+    <polygon points="50,300 350,300 200,20" class="stroke-main" />
+    <line x1="50" y1="300" x2="283.1" y2="175.1" class="stroke-height" />
+    
+    <path d="M 272.5,180.8 L 266.9,170.2 L 277.4,164.5" fill="none" stroke="#d32f2f" stroke-width="1.2" stroke-linejoin="miter" />
+
+    <circle cx="50" cy="300" r="3.5" class="point" />  
+    <circle cx="350" cy="300" r="3.5" class="point" /> 
+    <circle cx="200" cy="20" r="3.5" class="point" />  
+    <circle cx="283.1" cy="175.1" r="3.5" fill="#d32f2f" />
+
+    <text x="35" y="320" class="label" text-anchor="middle">A</text>
+    <text x="365" y="320" class="label" text-anchor="middle">C</text>
+    <text x="200" y="10" class="label" text-anchor="middle">B</text>
+    <text x="295" y="170" class="label" text-anchor="start" fill="#d32f2f">H</text>
+</svg>
