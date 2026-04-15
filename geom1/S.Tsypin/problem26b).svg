@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<svg 
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     width="63.18096733728207cm"
+     height="43.005961599023045cm"
+     viewBox="0 0 1236 841"
+     >
+<title>
+
+</title>
+<g stroke-dashoffset="0.0000" stroke-linejoin="miter" stroke-dasharray="none" stroke-width="1.0000" stroke-linecap="square" stroke-miterlimit="10.000">
+<g id="misc">
+</g><!-- misc -->
+<g id="layer0">
+<clipPath id="clip57630a5e-833f-4753-aaf0-09ffae22ecd8">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip1)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 421.52 619.27 C 421.52 727.40 333.87 815.05 225.74 815.05 C 117.61 815.05 29.950 727.40 29.950 619.27 C 29.950 511.14 117.61 423.48 225.74 423.48 C 333.87 423.48 421.52 511.14 421.52 619.27 z"/>
+<title>Окружность c</title>
+<desc>Окружность c: Окружность с центром O и радиусом 1</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip1 -->
+<clipPath id="clip58b92ea1-ecb2-4f90-8199-a1aa5e71853c">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip2)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="1.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 29.950 61.907 C 36.441 61.907 42.757 59.802 47.950 55.907 L 29.950 31.907 z"/>
+<title>Угол α</title>
+<desc>Угол α: Угол по точкам C, B, A</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip2 -->
+<clipPath id="clipd145a1ec-0772-4c68-8510-c1f8002e5cb1">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip3)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 29.950 31.907 L 617.31 815.05"/>
+<title>Отрезок i</title>
+<desc>Отрезок i: Отрезок [B, A]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip3 -->
+<clipPath id="clipc05286d0-6a7b-4075-a49a-21f36aa4b72a">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip4)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 617.31 815.05 L 29.950 815.05"/>
+<title>Отрезок j</title>
+<desc>Отрезок j: Отрезок [A, C]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip4 -->
+<clipPath id="clip84f080da-3589-4d07-a431-2c6d6b4f709a">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip5)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 29.950 815.05 L 29.950 31.907"/>
+<title>Отрезок k</title>
+<desc>Отрезок k: Отрезок [C, B]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip5 -->
+<clipPath id="clipaede99a6-5e25-48f3-b2ee-54e81cf8fa2c">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip6)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 29.950 423.48 L 323.63 423.48"/>
+<title>Отрезок l</title>
+<desc>Отрезок l: Отрезок [E, F]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip6 -->
+<clipPath id="clip39a32919-2ca0-406f-8792-c767193e9c4b">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip7)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 25.055 225.25 L 34.845 225.25"/>
+<title>Отрезок m</title>
+<desc>Отрезок m: Отрезок [Z, W]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip7 -->
+<clipPath id="clip729dff14-9416-4293-abd7-1ce7722dae34">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip8)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 25.055 225.25 L 34.845 225.25"/>
+<title>Отрезок n</title>
+<desc>Отрезок n: Отрезок [Z, W]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip8 -->
+<clipPath id="clip0f4de81f-698e-4834-b76c-3fc869d1b930">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip9)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 25.055 230.14 L 34.845 230.14"/>
+<title>Отрезок q</title>
+<desc>Отрезок q: Отрезок [Z1, W1]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip9 -->
+<clipPath id="clipa9f8a259-8b98-4712-b990-2f7e5f3b86c1">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip10)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 25.055 225.25 L 34.845 225.25"/>
+<title>Отрезок r</title>
+<desc>Отрезок r: Отрезок [Z, W]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip10 -->
+<clipPath id="clipb78a572d-60df-4c68-84f4-0f5fc4ac8518">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip11)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 25.055 616.82 L 34.845 616.82"/>
+<title>Отрезок s</title>
+<desc>Отрезок s: Отрезок [Z2, W2]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip11 -->
+<clipPath id="clip7e85d537-a0a2-4816-b5e6-1a7320fae4a2">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip12)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 25.055 621.71 L 34.845 621.71"/>
+<title>Отрезок t</title>
+<desc>Отрезок t: Отрезок [Z3, W3]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip12 -->
+<clipPath id="clipd310aa95-d398-4748-8ba0-7cab68003d36">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip13)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 225.74 619.27 L 394.77 718.06"/>
+<title>Отрезок a</title>
+<desc>Отрезок a: Отрезок [O, D]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip13 -->
+<clipPath id="clip9be1a926-f6df-4e77-8329-c696b975265d">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip14)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 29.950 785.69 L 59.318 785.69"/>
+<title>Отрезок b</title>
+<desc>Отрезок b: Отрезок [(-1, -0.85), (-0.85, -0.85)]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip14 -->
+<clipPath id="clip6c44e7aa-96e0-402c-8e8e-f07fafc01e9f">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip15)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 59.318 815.05 L 59.318 785.69"/>
+<title>Отрезок d</title>
+<desc>Отрезок d: Отрезок [(-0.85, -1), (-0.85, -0.85)]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip15 -->
+<clipPath id="clip9bfaef62-c9df-444d-9894-d84a97d15b6e">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip16)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 177.77 220.84 L 169.94 226.71"/>
+<title>Отрезок e</title>
+<desc>Отрезок e: Отрезок [(-0.25, 2.04), (-0.29, 2.01)]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip16 -->
+<clipPath id="clipc5c7669f-245c-4893-9cd4-c1074e8c608c">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip17)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 180.71 224.76 L 172.87 230.63"/>
+<title>Отрезок f_1</title>
+<desc>Отрезок f_1: Отрезок [(-0.23, 2.02), (-0.27, 1.99)]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip17 -->
+<clipPath id="clip25f2f0c6-74db-42b1-ae0c-8a0464960843">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip18)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 183.64 228.67 L 175.81 234.55"/>
+<title>Отрезок g_1</title>
+<desc>Отрезок g_1: Отрезок [(-0.22, 2), (-0.26, 1.97)]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip18 -->
+<clipPath id="clip498079de-4945-47f4-85a1-a57eea2e564c">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip19)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 471.45 612.41 L 463.62 618.29"/>
+<title>Отрезок h_1</title>
+<desc>Отрезок h_1: Отрезок [(1.26, 0.04), (1.22, 0.01)]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip19 -->
+<clipPath id="clip4a98bf66-16ad-43c2-898b-6a346014ec5e">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip20)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 474.39 616.33 L 466.55 622.20"/>
+<title>Отрезок i_1</title>
+<desc>Отрезок i_1: Отрезок [(1.27, 0.02), (1.23, -0.02)]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip20 -->
+<clipPath id="clip1119b2af-cd7e-4b6b-91d1-1dbeca4a863f">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip21)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" stroke-width="2.5000" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 477.32 620.25 L 469.49 626.12"/>
+<title>Отрезок j_1</title>
+<desc>Отрезок j_1: Отрезок [(1.29, -0.01), (1.25, -0.04)]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip21 -->
+<clipPath id="clip41d7775b-46b9-41bf-83fe-60469b5a3c7e">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip22)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 230.74 619.27 C 230.74 622.03 228.50 624.27 225.74 624.27 C 222.98 624.27 220.74 622.03 220.74 619.27 C 220.74 616.51 222.98 614.27 225.74 614.27 C 228.50 614.27 230.74 616.51 230.74 619.27 z"/>
+<title>Точка O</title>
+<desc>O = (0, 0)</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip22 -->
+<clipPath id="clip800eb10e-36d6-4fbe-b4d5-66e605a7da60">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip23)">
+<g stroke-opacity="1.0000" stroke-linejoin="round" fill="none" stroke="#000000" stroke-linecap="round">
+  <path d="M 230.74 619.27 C 230.74 622.03 228.50 624.27 225.74 624.27 C 222.98 624.27 220.74 622.03 220.74 619.27 C 220.74 616.51 222.98 614.27 225.74 614.27 C 228.50 614.27 230.74 616.51 230.74 619.27 z"/>
+<title>Точка O</title>
+<desc>O = (0, 0)</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip23 -->
+<clipPath id="clipc38e4e9a-55e9-4d49-bd35-cdbd73b5b7e3">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip24)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 631.92 819.31 L 627.41 819.31 L 626.50 820.42 L 625.47 821.66 Q 625.17 822.06 625.03 822.38 Q 624.92 822.62 624.92 822.88 Q 624.92 823.12 625.19 823.34 Q 625.47 823.56 626.11 823.61 L 626.11 824.00 L 621.75 824.00 L 621.86 823.61 Q 622.44 823.50 622.89 823.19 Q 623.50 822.77 624.62 821.42 L 634.95 809.09 L 635.42 809.09 L 634.95 821.03 Q 634.91 821.95 634.91 822.16 Q 634.91 822.88 635.20 823.22 Q 635.50 823.55 636.19 823.61 L 636.08 824.00 L 629.78 824.00 L 629.89 823.61 Q 630.83 823.52 630.97 823.45 Q 631.27 823.30 631.52 822.83 Q 631.77 822.34 631.81 821.16 L 631.92 819.31 z M 631.92 818.42 L 632.20 813.67 L 628.14 818.42 L 631.92 818.42 z"/>
+<title>A</title>
+<desc>надпись1 = “A”</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip24 -->
+<clipPath id="clip7f247e82-5521-485f-9d13-7010b8325b0e">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip25)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 14.406 13.438 L 20.156 13.438 Q 22.094 13.438 22.906 13.641 Q 24.000 13.891 24.594 14.641 Q 25.188 15.391 25.188 16.328 Q 25.188 17.109 24.719 17.922 Q 24.250 18.719 23.297 19.250 Q 22.359 19.766 20.422 20.203 Q 22.438 20.766 23.219 21.656 Q 24.016 22.547 24.016 23.734 Q 24.016 24.844 23.234 25.922 Q 22.469 27.000 21.188 27.500 Q 19.906 28.000 16.500 28.000 L 10.438 28.000 L 10.578 27.609 Q 11.469 27.609 11.844 27.453 Q 12.219 27.281 12.453 26.953 Q 12.688 26.609 13.000 25.531 L 15.594 16.562 Q 16.000 15.203 16.000 14.750 Q 16.000 14.375 15.672 14.125 Q 15.359 13.875 14.297 13.828 L 14.406 13.438 z M 17.703 19.875 Q 19.172 19.844 20.000 19.406 Q 20.844 18.969 21.359 17.969 Q 21.875 16.953 21.875 16.062 Q 21.875 15.234 21.344 14.703 Q 20.812 14.172 19.938 14.203 L 19.344 14.219 L 17.703 19.875 z M 17.453 20.672 L 15.594 27.156 Q 16.125 27.172 16.391 27.172 Q 18.781 27.172 19.719 25.844 Q 20.656 24.500 20.656 22.969 Q 20.656 22.234 20.297 21.672 Q 19.938 21.109 19.359 20.891 Q 18.797 20.672 17.453 20.672 z"/>
+<title>B</title>
+<desc>надпись2 = “B”</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip25 -->
+<clipPath id="clipec12c7a9-be29-4d92-b2df-b938bc5fb355">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip26)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 28.859 820.09 L 27.781 824.73 L 27.359 824.73 Q 27.281 822.84 26.422 821.92 Q 25.578 820.98 24.203 820.98 Q 22.719 820.98 21.250 822.25 Q 19.781 823.52 18.766 826.12 Q 17.938 828.25 17.938 830.31 Q 17.938 832.16 18.844 833.12 Q 19.750 834.09 21.328 834.09 Q 22.609 834.09 23.656 833.55 Q 24.703 832.98 25.781 831.72 L 26.297 831.72 Q 24.969 833.72 23.609 834.53 Q 22.250 835.33 20.281 835.33 Q 17.656 835.33 16.047 833.73 Q 14.438 832.14 14.438 829.58 Q 14.438 827.17 15.719 824.98 Q 17.000 822.80 19.391 821.45 Q 21.797 820.09 24.172 820.09 Q 25.078 820.09 26.422 820.48 Q 27.109 820.69 27.375 820.69 Q 27.906 820.69 28.453 820.09 L 28.859 820.09 z"/>
+<title>C</title>
+<desc>надпись3 = “C”</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip26 -->
+<clipPath id="clip7fd0b369-1058-45e3-ac63-9aff1d45db53">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip27)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 238.19 615.34 Q 236.42 615.34 235.33 614.62 Q 234.25 613.91 233.70 612.66 Q 233.17 611.41 233.17 610.23 Q 233.17 607.84 234.53 605.42 Q 235.91 603.00 238.22 601.55 Q 240.53 600.09 242.78 600.09 Q 244.11 600.09 245.30 600.77 Q 246.48 601.42 247.14 602.62 Q 247.80 603.81 247.80 605.02 Q 247.80 607.73 246.06 610.47 Q 244.34 613.20 242.19 614.44 Q 240.55 615.34 238.19 615.34 z M 242.44 600.97 Q 241.58 600.97 240.98 601.28 Q 240.39 601.58 239.73 602.30 Q 239.09 603.02 238.42 604.36 Q 237.77 605.70 237.17 608.00 Q 236.59 610.30 236.59 611.83 Q 236.59 613.14 237.16 613.81 Q 237.73 614.48 238.62 614.48 Q 239.81 614.48 240.64 613.70 Q 242.28 612.14 243.31 609.12 Q 244.36 606.11 244.36 603.77 Q 244.36 602.30 243.80 601.64 Q 243.25 600.97 242.44 600.97 z"/>
+<title>O</title>
+<desc>надпись4 = “O”</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip27 -->
+<clipPath id="clip49d26307-8124-499f-b059-fb937aa9f36a">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip28)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 12.312 413.23 L 10.688 418.89 L 11.188 418.89 Q 13.141 418.89 14.031 418.38 Q 14.938 417.86 15.562 416.55 L 15.953 416.55 L 14.328 422.22 L 13.953 422.22 Q 14.047 421.66 14.047 421.30 Q 14.047 420.70 13.688 420.33 Q 13.344 419.95 12.781 419.80 Q 12.422 419.69 11.266 419.69 L 10.438 419.69 L 9.0312 424.58 Q 8.8594 425.22 8.8594 425.53 Q 8.8594 425.78 9.0938 425.92 Q 9.4375 426.14 10.391 426.14 Q 12.234 426.14 13.844 425.36 Q 15.469 424.58 16.766 423.00 L 17.203 423.00 L 15.688 427.00 L 3.2188 427.00 L 3.3594 426.61 Q 4.4531 426.61 4.9531 426.20 Q 5.4688 425.78 5.8750 424.38 L 8.6094 414.98 Q 8.8281 414.20 8.8281 413.75 Q 8.8281 413.34 8.5312 413.12 Q 8.2500 412.91 7.2188 412.83 L 7.3438 412.44 L 18.953 412.44 L 18.016 416.08 L 17.625 416.08 Q 17.594 415.00 17.297 414.56 Q 16.844 413.88 16.094 413.56 Q 15.359 413.23 13.672 413.23 L 12.312 413.23 z"/>
+<title>E</title>
+<desc>надпись5 = “E”</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip28 -->
+<clipPath id="clip14c6481b-2160-41ce-87b9-264b8305ffb7">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip29)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 341.00 412.25 L 339.39 417.75 Q 341.03 417.73 341.53 417.62 Q 342.33 417.45 342.98 416.94 Q 343.64 416.42 344.08 415.50 L 344.50 415.50 L 342.84 421.23 L 342.41 421.23 Q 342.52 420.69 342.52 420.34 Q 342.52 419.69 342.23 419.30 Q 341.97 418.89 341.53 418.75 Q 341.11 418.59 339.17 418.56 L 337.86 423.09 L 337.61 424.02 Q 337.55 424.28 337.55 424.53 Q 337.55 424.92 337.69 425.14 Q 337.84 425.34 338.16 425.47 Q 338.48 425.59 339.39 425.61 L 339.27 426.00 L 332.00 426.00 L 332.12 425.61 Q 333.17 425.61 333.66 425.22 Q 334.14 424.81 334.53 423.50 L 337.12 414.58 Q 337.53 413.17 337.55 412.78 Q 337.53 412.41 337.20 412.14 Q 336.89 411.88 335.89 411.83 L 336.00 411.44 L 347.91 411.44 L 346.92 415.28 L 346.53 415.28 Q 346.45 414.08 346.14 413.50 Q 345.84 412.91 345.12 412.58 Q 344.41 412.25 342.84 412.25 L 341.00 412.25 z"/>
+<title>F</title>
+<desc>надпись6 = “F”</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip29 -->
+<clipPath id="clipc41f1738-3860-4178-b20d-b91020dad91d">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip30)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 311.20 647.05 L 309.59 653.08 Q 311.59 648.66 312.59 647.64 Q 313.19 647.05 313.84 647.05 Q 314.30 647.05 314.58 647.38 Q 314.86 647.70 314.86 648.30 Q 314.86 649.34 314.34 650.05 Q 314.03 650.50 313.62 650.50 Q 313.20 650.50 312.98 650.11 Q 312.77 649.70 312.67 649.64 Q 312.59 649.56 312.50 649.56 Q 312.39 649.56 312.28 649.62 Q 312.03 649.77 311.66 650.27 Q 311.28 650.77 310.72 651.94 Q 310.16 653.09 309.84 653.91 Q 309.53 654.72 308.97 657.00 L 306.38 657.00 L 308.16 649.88 Q 308.34 649.08 308.34 648.83 Q 308.34 648.53 308.23 648.38 Q 308.14 648.22 307.95 648.14 Q 307.78 648.06 307.22 648.06 L 307.33 647.75 L 310.56 647.05 L 311.20 647.05 z"/>
+<title>r</title>
+<desc>надпись7 = “r”</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip30 -->
+<clipPath id="clip28d6899f-dbf7-446d-8ca9-a2b373813365">
+  <path d="M 0.0000 0.0000 L 0.0000 842.00 L 1237.0 842.00 L 1237.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip31)">
+<g fill="#000000" fill-rule="nonzero" fill-opacity="1.0000" stroke="none">
+  <path d="M 46.234 69.953 L 49.188 69.953 L 48.156 74.703 Q 47.797 76.422 47.453 77.328 Q 47.547 77.906 47.844 78.281 Q 48.156 78.656 48.484 78.656 Q 49.359 78.656 49.406 77.062 L 49.812 77.062 Q 49.781 78.969 49.391 79.641 Q 49.000 80.297 48.438 80.297 Q 47.438 80.297 47.031 78.141 Q 45.844 80.297 43.359 80.297 Q 41.375 80.297 40.156 78.922 Q 38.938 77.531 38.938 75.328 Q 38.938 73.031 40.141 71.344 Q 41.359 69.656 43.078 69.656 Q 43.953 69.656 44.562 70.219 Q 45.172 70.781 45.781 72.109 L 46.234 69.953 z M 45.484 73.438 Q 44.875 71.656 44.422 71.094 Q 43.969 70.516 43.344 70.516 Q 42.781 70.516 42.438 71.266 Q 42.094 72.000 42.094 75.609 Q 42.094 77.688 42.312 78.625 Q 42.531 79.547 43.172 79.547 Q 43.594 79.547 44.000 79.062 Q 44.406 78.562 44.891 76.281 L 45.484 73.438 z"/>
+<title>α</title>
+<desc>надпись11 = “α”</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip31 -->
+</g><!-- layer0 -->
+</g> <!-- default stroke -->
+</svg> <!-- bounding box -->
