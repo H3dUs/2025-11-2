@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 22</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin: 0 0 10px 0;
+            font-weight: normal;
+        }
+
+        .info {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .condition {
+            margin: 30px 0;
+            font-size: 19px;
+            line-height: 1.6;
+            color: #222;
+        }
+
+        .condition p {
+            margin: 15px 0;
+        }
+
+        .drawing p {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .drawing img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Задача 22</h1>
+        <div class="info">Цыпин Степан 11-2</div>
+
+        <div class="condition">
+            <p><strong>Условие задачи:</strong></p>
+            <p>Окружность радиуса \( r = 1 \) вписана в треугольник \( ABC \), в котором \( \cos \angle ABC = 0,8 \).
+                Эта окружность касается средней линии треугольника \( ABC \), параллельной стороне \( AC \).</p>
+            <p>a) Докажите, что треугольник \( ABC \) — прямоугольный.</p>
+            <p>b) Найдите площадь треугольника \( ABC \).</p>
+        </div>
+
+        <div class="drawing">
+            <p><strong>Чертеж к пункту а:</strong></p>
+            <img src="problem26a).svg" alt="Чертеж к пункту а">
+        </div>
+
+        <div class="condition">
+            <p><strong>Решение пункта а:</strong></p>
+            <p>Пусть \( h \) — высота треугольника \( ABC \), опущенная на сторону \( AC \). Средняя линия \( EF \),
+                параллельная \( AC \), находится на расстоянии \( \frac{h}{2} \) от \( AC \).</p>
+            <p>Так как вписанная окружность касается и стороны \( AC \), и средней линии \( EF \), её диаметр равен
+                расстоянию между этими параллельными прямыми:
+                \[ 2r = \frac{h}{2} \implies h = 4r \]
+                При \( r = 1 \) получаем \( h = 4 \).
+            </p>
+            <p>Площадь треугольника можно выразить двумя способами: через высоту \( S = \frac{1}{2} AC \cdot h = 2 AC \)
+                и через полупериметр \( S = p \cdot r = p \). Отсюда:
+                \[ p = 2 AC \implies \frac{AB + BC + AC}{2} = 2 AC \implies AB + BC = 3 AC \]
+            </p>
+            <p>По теореме косинусов для угла \( B \):
+                \[ AC^2 = AB^2 + BC^2 - 2 AB \cdot BC \cdot \cos B \]
+                Подставим \( \cos B = 0,8 \) и \( BC = 3 AC - AB \):
+                \[ AC^2 = AB^2 + (3 AC - AB)^2 - 1,6 AB (3 AC - AB) \]
+            </p>
+            <p>После упрощения получаем квадратное уравнение относительно \( \frac{AB}{AC} \):
+                \[ 9 \left(\frac{AB}{AC}\right)^2 - 27 \left(\frac{AB}{AC}\right) + 20 = 0 \]
+                Корни уравнения: \( \frac{AB}{AC} = \frac{5}{3} \) и \( \frac{AB}{AC} = \frac{4}{3} \).
+            </p>
+            <p>В первом случае стороны относятся как \( 3:4:5 \) (где \( AB \) — гипотенуза), во втором — аналогично
+                (где \( BC \) — гипотенуза). В обоих случаях треугольник \( ABC \) прямоугольный по теореме, обратной
+                теореме Пифагора.</p>
+        </div>
+
+        <div class="drawing">
+            <p><strong>Чертеж к пункту б:</strong></p>
+            <img src="problem26b).svg" alt="Чертеж к пункту б">
+        </div>
+
+        <div class="condition">
+            <p><strong>Решение пункта б:</strong></p>
+            <p>Из пункта (а) следует, что стороны треугольника относятся как \( 3:4:5 \). Пусть стороны равны \( 3x, 4x
+                \) и \( 5x \). Тогда площадь и полупериметр равны:
+                \[ S = \frac{1}{2} \cdot 3x \cdot 4x = 6x^2, \quad p = \frac{3x + 4x + 5x}{2} = 6x \]
+            </p>
+            <p>Радиус вписанной окружности:
+                \[ r = \frac{S}{p} = \frac{6x^2}{6x} = x \]
+                По условию \( r = 1 \), значит \( x = 1 \).
+            </p>
+            <p>Следовательно, площадь треугольника равна:
+                \[ S = 6 \cdot 1^2 = 6 \]
+            </p>
+            <p><strong>Ответ: 6.</strong></p>
+        </div>
+    </div>
+</body>
+
+</html>
