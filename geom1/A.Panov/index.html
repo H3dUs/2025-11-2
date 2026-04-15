@@ -1,20 +1,181 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Panov's task</title>
-    <script src="https://polyfill.io"></script>
-    <script id="MathJax-script" async src="https://jsdelivr.net"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Задача №2 - Панов Артём</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"
+onload="renderMathInElement(document.body, {
+delimiters:[
+{left: '$$', right: '$$', display: true},
+{left: '$', right: '$', display: false}
+]});"></script>
+
+<style>
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #38bdf8;
+}
+
+img {
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 55%;
+    max-width: 700px;
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+strong {
+    color: #facc15;
+}
+
+.katex-display {
+    margin: 20px 0;
+}
+</style>
+
 </head>
 
 <body>
- <img src="imgPanov.svg">
- <p>
-В четырёхугольнике ABCD противоположные стороны не параллельны. Диагонали четырёхугольника ABCD пересекаются в точке O под прямым углом и образуют четыре подобных треугольника, у каждого из которых одна из вершин  — точка O.
-<br>
-а)  Докажите, что около четырёхугольника ABCD можно описать окружность.
-<br>
-б)  Найдите радиус вписанной окружности, если AC  =  10, BD  =  26. 
-<br>
+
+<div class="container">
+
+<h1>Задача №2</h1>
+
+<img src="imgPanov.svg">
+
+<p class="section-title">Решение пункта а)</p>
+
+<p>
+Рассмотрим треугольники $\triangle ABO$ и $\triangle COD$: углы $\angle ABD$ и $\angle BDC$ при секущей $BD$ не равны.
+Тогда, так как треугольники $\triangle ABO$ и $\triangle COD$ подобны, углы $\angle ABO$ и $\angle DCO$, а также $\angle BAO$ и $\angle CDO$ равны.
+Аналогично для треугольников $\triangle AOD$ и $\triangle BDC$.
+Сумма углов $\angle ABO$ и $\angle DCO$ равна $90^\circ$, следовательно, конфигурацию можно представить приведённым рисунком.
 </p>
+
+<p>
+Заметим, что $\overset{\frown}{ABD} = \overset{\frown}{ACD}$, следовательно, вокруг четырёхугольника $ABCD$ можно описать окружность.
+</p>
+
+<p class="section-title">Решение пункта б)</p>
+
+<p>
+Пусть $BO = a$, $OC = b$, тогда:
+</p>
+
+$$
+OD = OC \cdot \frac{b}{a} = \frac{b^2}{a}
+$$
+
+$$
+BO = OA \cdot \frac{AO}{OD} \Rightarrow a = \frac{AO^2}{b^2} \Rightarrow AO = b
+$$
+
+<p>
+Из этого следует: $AO = OC = 5$.
+</p>
+
+<p>
+Пусть $OB = x$, тогда:
+</p>
+
+$$
+\frac{25}{x} = 26 - x, \quad x > 0
+$$
+
+$$
+x^2 - 26x + 25 = 0 \Rightarrow
+\begin{cases}
+x = 1 \\
+x = 25
+\end{cases}
+$$
+
+<p>
+Пусть $OB = 1$, $OD = 25$.
+</p>
+
+$$
+AB = BC = \sqrt{26}
+$$
+
+$$
+AD = DC = 5\sqrt{26}
+$$
+
+<p>
+Полупериметр:
+</p>
+
+$$
+p_{ABCD} = 6\sqrt{26}
+$$
+
+<p>
+Площадь:
+</p>
+
+$$
+S_{ABCD} = 130
+$$
+
+<p>
+Радиус:
+</p>
+
+$$
+r = \frac{130}{6\sqrt{26}} = \frac{5\sqrt{26}}{6}
+$$
+
+<p>
+Если рассмотреть другую конфигурацию:
+</p>
+
+$$
+x^2 - 5x + 169 = 0
+$$
+
+<p>
+Корней нет → конфигурация невозможна.
+</p>
+
+<p><strong>Ответ: $\frac{5\sqrt{26}}{6}$</strong></p>
+
+</div>
+
 </body>
+</html>
