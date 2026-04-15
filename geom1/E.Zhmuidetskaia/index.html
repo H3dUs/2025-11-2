@@ -39,5 +39,37 @@
 <div class="center">
     <img src="illustration.svg" alt="Рисунок к задаче" width="500">
 </div>
+
+<p>Точка \( D \) лежит на основании \( AC \) равнобедренного треугольника \( ABC \). Точки \( I \) и \( J \) — центры окружностей, описанных около треугольников \( ABD \) и \( CBD \) соответственно.</p>
+
+<p>a) Докажите, что прямые \( BI \) и \( DJ \) параллельны.</p>
+
+<p>б) Найдите \( IJ \), если \( AC = 16 \), \( \cos \angle BDC = \frac{1}{9} \).</p>
+
+<hr>
+
+<p><strong>Решение.</strong></p>
+
+<p><strong>a)</strong> Заметим, что по теореме синусов радиус окружности, описанной около треугольника \( ABD \), равен  
+\[
+\frac{AB}{2 \sin \angle BDA} = \frac{BC}{2 \sin \angle BDC},
+\]  
+следовательно, он равен радиусу окружности, описанной около треугольника \( BDC \), а значит, \( BIDJ \) — ромб, отсюда следует, что прямые \( BI \) и \( DJ \) параллельны, ч. т. д.</p>
+
+<p><strong>б)</strong> Пусть точка \( M \) — середина \( AD \), а точка \( N \) — середина \( DC \), значит, \( IM \perp AD \) и \( JN \perp DC \), и  
+\[
+MN = \frac{AC}{2} = 8.
+\]  
+Знаем, что отрезок \( IJ \) перпендикулярен отрезку \( BD \) (диагонали ромба), следовательно,  
+\[
+\angle BDC = 180^\circ - \angle BDA = \angle JIM \quad\Rightarrow\quad MN = IJ \cdot \sin \angle JIM = IJ \cdot \sin \angle BDC \quad\Rightarrow\quad
+\]  
+\[
+IJ = \frac{MN}{\sin \angle BDC} = \frac{8}{\sqrt{1 - \frac{1}{81}}} = \frac{8 \cdot 9}{\sqrt{80}} = \frac{18}{\sqrt{5}}.
+\]</p>
+
+<p><strong>Ответ:</strong> б) \( \displaystyle \frac{18\sqrt{5}}{5} \).</p>
+
+
 </body>
 </html>
