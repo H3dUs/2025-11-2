@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 13 - Баскаков Даниил</title>
+    
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
+
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 1100px; /* Увеличено для более крупных картинок */
+            width: 100%;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            text-align: left;
+        }
+        .author {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 40px;
+            display: inline-block;
+            /* Подчеркивание удалено */
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .image-container img {
+            width: 100%; 
+            max-width: 1100px; /* Картинки теперь шире */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 20px;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        .equation {
+            text-align: center;
+            margin: 25px 0;
+            font-size: 22px;
+            background: #fcfcfc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .answer {
+            font-weight: bold;
+            font-size: 22px;
+            margin-top: 30px;
+            text-align: right;
+        }
+        b { color: #000; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Задача 13</h1>
+    <div class="author">Выполнил: Баскаков Даниил</div>
+
+    <h2>Условие задачи:</h2>
+    <p>
+        Около остроугольного треугольника $ABC$ описана окружность с центром $O$. 
+        На продолжении отрезка $AO$ за точку $O$ отмечена точка $K$ так, что $\angle BAC + \angle AKC = 90^\circ$.
+    </p>
+    <p>
+        <b>а)</b> Докажите, что четырёхугольник $OBKC$ вписанный.<br>
+        <b>б)</b> Найдите радиус окружности, описанной около четырёхугольника $OBKC$, если $\cos \angle BAC = \frac{3}{5}$, а $BC = 48$.
+    </p>
+
+    <hr style="margin-top: 40px; border: 0; border-top: 1px solid #ccc;">
+
+    <h2>Решение пункта а:</h2>
+    
+    <div class="image-container">
+        <img src="13a.svg" alt="Чертеж к пункту а">
+    </div>
+
+    <p>
+        Пусть $\angle BAC = \alpha$. По условию задачи сумма углов $\angle BAC$ и $\angle AKC$ равна $90^\circ$. 
+        Отсюда выразим величину угла при точке $K$:
+    </p>
+    <div class="equation">
+        $\angle AKC = 90^\circ - \alpha$.
+    </div>
+    <p>
+        Поскольку точка $K$ лежит на луче $AO$, углы $\angle OKC$ и $\angle AKC$ совпадают. Таким образом, $\angle OKC = 90^\circ - \alpha$.
+    </p>
+    <p>
+        Рассмотрим описанную окружность треугольника $ABC$. Вписанный угол $\angle BAC = \alpha$ опирается на дугу $BC$. 
+        Центральный угол $\angle BOC$, опирающийся на ту же дугу, в два раза больше вписанного:
+    </p>
+    <div class="equation">
+        $\angle BOC = 2\alpha$.
+    </div>
+    <p>
+        Треугольник $BOC$ — равнобедренный, так как $OB = OC$ (радиусы описанной окружности). Углы при основании $BC$ равны:
+    </p>
+    <div class="equation">
+        $\angle OBC = \angle OCB = \frac{180^\circ - 2\alpha}{2} = 90^\circ - \alpha$.
+    </div>
+    <p>
+        Мы получили, что $\angle OBC = \angle OKC = 90^\circ - \alpha$. Отрезок $OC$ виден из точек $B$ и $K$, лежащих по одну сторону от прямой $OC$, под одним и тем же углом. Это признак того, что точки $O, B, K, C$ лежат на одной окружности.
+    </p>
+    <p><b>Следовательно, четырёхугольник $OBKC$ вписанный.</b></p>
+
+    <h2>Решение пункта б:</h2>
+
+    <div class="image-container">
+        <img src="13b.svg" alt="Чертеж к пункту б">
+    </div>
+
+    <p>
+        Из условия имеем $\cos \alpha = \frac{3}{5} = 0,6$. Найдем $\sin \alpha$:
+    </p>
+    <div class="equation">
+        $\sin \alpha = \sqrt{1 - \cos^2 \alpha} = \sqrt{1 - 0,36} = 0,8 = \frac{4}{5}$.
+    </div>
+
+    <p>
+        По теореме синусов для треугольника $ABC$ найдем радиус описанной окружности $R$:
+    </p>
+    <div class="equation">
+        $2R = \frac{BC}{\sin \alpha} = \frac{48}{0,8} = 60 \implies R = 30$.
+    </div>
+    <p>Следовательно, радиус $OC = 30$.</p>
+
+    <p>
+        Пусть $R_1$ — радиус окружности, описанной около $OBKC$. Она также является описанной окружностью для треугольника $OKC$. 
+        Применим теорему синусов к треугольнику $OKC$:
+    </p>
+    <div class="equation">
+        $2R_1 = \frac{OC}{\sin \angle OKC}$.
+    </div>
+    <p>
+        Ранее мы установили, что $\angle OKC = 90^\circ - \alpha$. Тогда:
+    </p>
+    <div class="equation">
+        $\sin(90^\circ - \alpha) = \cos \alpha = 0,6$.
+    </div>
+
+    <p>
+        Подставляем значения в формулу:
+    </p>
+    <div class="equation">
+        $2R_1 = \frac{30}{0,6} = 50 \implies R_1 = 25$.
+    </div>
+
+    <p class="answer">Ответ: 25.</p>
+
+</div>
+
+</body>
+</html>
