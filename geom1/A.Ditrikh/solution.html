@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задача 20</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, { delimiters: [{left: '$$', right: '$$', display: true}] });"></script>
+    <style>
+        body {
+            margin: 2rem;
+            font-family: 'Times New Roman', serif;
+            font-size: 1rem;
+            line-height: 1.4;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .task-title, .author, .condition, .solution {
+            margin-bottom: 1rem;
+        }
+        .math-block {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="condition">
+    <strong>Условие</strong><br>
+    Окружность касается одной из сторон прямого угла с вершиной D в точке E и пересекает вторую сторону в точках A и B (точка A лежит между B и D). В окружности проведён диаметр AC.<br>
+    а) Докажите, что отрезок BC вдвое больше отрезка DE.<br>
+    б) Найдите расстояние от точки E до прямой AC, если AD = 4 и AB = 5.
+</div>
+
+<div class="solution">
+    <strong>Решение</strong>
+
+    <div class="math-block">
+        $$ \text{а) Пусть } O \text{ — центр окружности. Продлим } EO \text{ до пересечения с } BC, \text{ получим точку } F. $$
+    </div>
+    <div class="math-block">
+        $$ EO \perp ED \text{ (радиус в точку касания). } \angle ABC = 90^\circ \text{ (опирается на диаметр } AC\text{).} $$
+    </div>
+    <div class="math-block">
+        $$ \text{В четырёхугольнике } DEFB \text{ три прямых угла, значит, он прямоугольник, поэтому } ED = FB. $$
+    </div>
+    <div class="math-block">
+        $$ OF \parallel AB,\; OC = OA \implies \text{по теореме Фалеса } CF = FB. $$
+    </div>
+    <div class="math-block">
+        $$ \text{Следовательно, } BC = CF + FB = 2FB = 2DE. $$
+    </div>
+
+    <div class="math-block">
+        $$ \text{б) По теореме о касательной и секущей:} $$
+    </div>
+    <div class="math-block">
+        $$ DE^2 = AD \cdot (AD + AB) = 4 \cdot (4 + 5) = 36 \implies DE = 6. $$
+    </div>
+    <div class="math-block">
+        $$ \text{Из пункта (а): } BC = 2DE = 12. $$
+    </div>
+    <div class="math-block">
+        $$ \text{В прямоугольном } \triangle ADE\;( \angle ADE = 90^\circ): $$
+    </div>
+    <div class="math-block">
+        $$ AE^2 = AD^2 + DE^2 = 16 + 36 = 52 \implies AE = 2\sqrt{13}. $$
+    </div>
+    <div class="math-block">
+        $$ \text{В } \triangle ABC\;( \angle ABC = 90^\circ): $$
+    </div>
+    <div class="math-block">
+        $$ AC^2 = AB^2 + BC^2 = 25 + 144 = 169 \implies AC = 13. $$
+    </div>
+    <div class="math-block">
+        $$ \text{В } \triangle AEC\;( \angle AEC = 90^\circ): $$
+    </div>
+    <div class="math-block">
+        $$ CE = \sqrt{AC^2 - AE^2} = \sqrt{169 - 52} = 3\sqrt{13}. $$
+    </div>
+    <div class="math-block">
+        $$ \text{Расстояние } EH \text{ — высота из прямого угла } \triangle AEC: $$
+    </div>
+    <div class="math-block">
+        $$ EH = \frac{AE \cdot CE}{AC} = \frac{2\sqrt{13} \cdot 3\sqrt{13}}{13} = \frac{6 \cdot 13}{13} = 6. $$
+    </div>
+</div>
+</body>
+</html>
