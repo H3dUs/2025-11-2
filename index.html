@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task 12</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css" integrity="sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.js" integrity="sha384-m/s9umSlhJbqEdA/j7pQVdGCMx2fHf7GXtgCVhNGOwLuu+1qJQES5AzIE8pn3nKQ" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+        <style>
+            body {
+                margin: auto;
+                font-family: 'Times New Roman', serif;
+                max-width: 600px;
+                text-align: justify;
+            }
+            .head {
+                font-weight: 700;
+                font-size: 1.5em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="head">
+            Done by N Samsonova
+            </p> Task 12
+        </div>
+
+        <div>
+        </p>Точка M лежит на стороне [BC] выпуклого четырехугольника ABCD, |AB| = |BM|, |MC| = |CD|. Биссектрисы углов ABC и BCD пересекаются в точке P, лежащей на стороне [AD]. <br>
+        <n></n>
+        а)  Докажите, что четырехугольник ABCD  — параллелограмм или трапеция.<br>
+        б)  Найдите площадь четырехугольника ABCD, если известно, что |BM| : |CM| =  1 : 3 и площадь четырехугольника, ограниченного прямыми (AM), (DM), (BP) и (CP), равна 18.<br>
+        
+        <div class="head">
+            </p>Решение:
+        </div>
+
+        <div>
+            <img src="new12.svg" width="600" height="400">
+
+        </p>а) Заметим, что равны треугольники ABP и BMP (по двум сторонам и углу между ними). Поэтому |AP| = |MP|. Аналогично, равны треугольники CMP и CDP, поэтому |DP| = |MP|. Значит, в треугольнике AMD длина медианы |MP| равна половине длины |AD|, поэтому угол \(\widehat{AMD}=90^\circ\). Угол \(\widehat{BMA}=90^\circ - \frac{B}{2}\), угол \(\widehat{CMD}=90^\circ - \frac{C}{2}\). Поэтому угол \(\widehat{AMD}= \frac{\widehat{B}+ \widehat{C}}{2}\). одновременно с этим он прямой. Таким образом, прямые (AB) и (CD) параллельны.<br>
+             
+        </p>б) Пусть прямая (BP) пересекает прямую (AM) в точке E, прямая (CP) пересекает прямую (MD) в точке F. Заметим, что [BE]— биссектриса и высота треугольника ABM, аналогично [CF]  — биссектриса и высота треугольника MCD, поэтому получаем, что EMFP  — прямоугольник.
+
+Из подобия треугольников BME и BCP, а потом и из подобия треугольников CMF и CBP получаем, что |EM| : |PC|  =  1 : 4, |MF| : |PB|  =  3 : 4.
+
+По условию, |EM| · |MF|  =  18, значит,
+
+<br> |BP| * |PC| = 18 \(\cdot) 4 \(\cdot) \frac{4}{3} =96 <br>
+Площадь ABCD вдвое больше площади треугольника BPC, поэтому она равна |BP| \(\cdot) |PC| = 96 <br>
+             Ответ: 96
+
+
+        </div>
+    </body>
+</html>
