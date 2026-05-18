@@ -1,1 +1,109 @@
-Git
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача №16</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;;
+            background: #f1f5f9;
+			color: #334155;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+        .info {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #3e535e;
+        }
+        .condition {
+            margin: 30px 0;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #3e535e;
+        }
+        .condition p {
+            margin: 15px 0;
+        }
+		.drawing {
+            text-align: center; 
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8fafc;
+            border: 2px; 
+            border-radius: 8px;
+        }
+        .drawing p {
+            font-size: 18px;
+			margin-top: 0;
+            margin-bottom: 10px;
+            color: #64748b;
+			font-style: italic;
+        }
+        .drawing img {
+            max-width: 100%;
+            height: auto;
+			border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i><b>Задача №16</b></i></h1>
+        <div class="info">Мочалюк Александр 11-2</div>
+        <div class="condition">
+            <p><strong>Условие:</strong></p>
+            <p>В треугольнике \( ABC \) проведены биссектрисы \( BM \) и \( CN \). Оказалось, что точки \( B \), \( C \), \( M \) и \( N \) лежат на одной окружности.</p>
+            <p>a) Докажите, что треугольник \( ABC \) равнобедренный.</p>
+            <p>b) Пусть \( P \) — точка пересечения биссектрис треугольника \( ABC \). Найдите площадь четырёхугольника \( AMPN \), если \( MN : BC = 2 : 5 \), а \( BN = 21 \).</p>
+        </div>
+        <div class="drawing">
+            <p><strong>Чертеж к а)</strong></p>
+            <img src="16a.png" alt="Чертеж к а)">
+        </div>
+        <div class="condition">
+            <p><strong>а)</strong></p>
+            <p>Вписанные углы \( \angle NCM \) и \( \angle MBN \) опираются на одну и ту же дугу, следовательно, они равны. Поскольку</p>
+            <p>\[ \frac{1}{2}\angle ACB = \angle MCN = \angle MBN = \frac{1}{2}\angle ABC, \]</p>
+            <p>получаем \( \angle ACB = \angle ABC \), то есть треугольник \( ABC \) равнобедренный.</p>
+        </div>
+        <div class="drawing">
+            <p><strong>Чертеж к b)</strong></p>
+            <img src="16bb.png" alt="Чертеж к b)">
+        </div>
+        <div class="condition">
+            <p><strong>b)</strong></p>
+            <p>Поскольку</p>
+            <p>\[ \angle BCN = \angle MCN = \angle MBN = \angle MBC, \]</p>
+            <p>получаем, что \( BN = NM = MC = 21 \) и прямая \( MN \) параллельна прямой \( BC \). Отрезок \( BC \) равен \( \frac{105}{2} \).</p>
+            <p>Пусть \( AK \) — биссектриса, медиана и высота треугольника \( ABC \). Прямая \( AK \) проходит через точку \( P \) — центр вписанной окружности. Треугольник \( ANM \) подобен треугольнику \( ABC \), следовательно,</p>
+            <p>\[ \frac{AN}{AB} = \frac{MN}{BC} = \frac{2}{5}. \]</p>
+            <p>Тогда</p>
+            <p>\[ AB = \frac{5}{3}BN = 35, \]</p>
+            <p>\[ AK = \sqrt{AB^2 - BK^2} = \sqrt{35^2 - \left(\frac{105}{4}\right)^2} = \frac{35\sqrt{7}}{4}. \]</p>
+            <p>Площадь треугольника \( ABC \) равна</p>
+            <p>\[ S_{ABC} = \frac{1}{2}AK \cdot BC = \frac{1}{2}PK \cdot (AB + AC + BC), \]</p>
+            <p>а значит</p>
+            <p>\[ PK = \frac{AK \cdot BC}{AB + AC + BC} = \frac{\frac{35\sqrt{7}}{4} \cdot \frac{105}{2}}{35 + 35 + \frac{105}{2}} = \frac{15\sqrt{7}}{4}, \]</p>
+            <p>\[ AP = AK - PK = \frac{35\sqrt{7}}{4} - \frac{15\sqrt{7}}{4} = 5\sqrt{7}. \]</p>
+            <p>В четырёхугольнике \( AMPN \) диагонали \( AP \) и \( MN \) перпендикулярны, следовательно, его площадь равна</p>
+            <p>\[ S_{AMPN} = \frac{1}{2}AP \cdot MN = \frac{1}{2} \cdot 5\sqrt{7} \cdot 21 = \frac{105\sqrt{7}}{2}. \]</p>
+            <p><strong>Ответ: b) \( \frac{105\sqrt{7}}{2} \)</strong></p>
+        </div>
+    </div>
+</body>
+</html>
